@@ -1,0 +1,38 @@
+{
+  "name": "myleanmeanbook",
+  "version": "0.0.1",
+  "description": "My code from working through Lean MEAN Web App Machine",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miller-productions/leanmeanbook.git"
+  },
+  "author": "Dan Miller",
+  "license": "SEE LICENSE IN repository",
+  "homepage": "https://github.com/miller-productions/leanmeanbook",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "chalk": "^1.1.3",
+    "compression": "^1.6.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3",
+    "glob": "^7.1.2",
+    "lodash": "^4.17.4",
+    "method-override": "^2.3.9",
+    "mongoose": "^4.10.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-livereload": "^3.8.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-nodemon": "^2.2.1",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "run-sequence": "^1.2.2"
+  }
+}
