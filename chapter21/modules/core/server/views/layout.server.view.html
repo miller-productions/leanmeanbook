@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" ng-strict-di>
+<head>
+  <title page-title></title>
+  <!-- Application CSS Files -->
+  {{#each cssFiles}}<link rel="stylesheet" href="/{{this}}">{{/each}}
+</head>
+<body class="ng-cloak">
+  <section class="content">
+    <section class="container">
+      {{{block "content"}}}
+    </section>
+  </section>
+  <!--Application JavaScript Files-->
+  {{#each jsFiles}}<script type="text/javascript" src="/{{this}}">
+  </script>{{/each}}
+</body>
+</html>
