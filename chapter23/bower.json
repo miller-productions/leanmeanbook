@@ -1,0 +1,15 @@
+{
+  "name": "myleanmeanbook",
+  "description": "My code from working through Lean MEAN Web App Machine",
+  "authors": [
+    "Dan Miller"
+  ],
+  "license": "SEE LICENSE IN repository",
+  "homepage": "https://github.com/miller-productions/leanmeanbook",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.6.4",
+    "angular-ui-router": "~1.0.3",
+    "bootstrap": "~3.3.7"
+  }
+}

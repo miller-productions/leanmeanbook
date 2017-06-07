@@ -1,0 +1,42 @@
+{
+  "node": true, // Enable globals when inside a NodeJS environment.
+  "browser": true, // Standard browser globals.
+  "esnext": true, // Allow ES.next specific features.
+  "bitwise": false, // Prohibit bitwise operators (&, |, ^, etc.).
+  "camelcase": false, // camelcase only for `var` and `object indexes`.
+  "curly": false, // Require {} for every new block or scope.
+  "eqeqeq": true, // Require triple equals i.e. `===`.
+  "immed": true, // Require immediate invocations wrapped in parens;
+  "latedef": true, // Prohibit variable use before definition.
+  "newcap": true, // Require capitalization of all constructors.
+  "noarg": true, // Prohibit `arguments.caller` and `arguments.callee`.
+  "quotmark": "single", // Define quotes to string values.
+  "regexp": true, // Prohibit `.` and `[^...]` in regular expressions.
+  "undef": true, // Require all non-global variables be declared.
+  "unused": false, // Warn unused variables.
+  "strict": true, // Require `use strict` pragma in every file.
+  "trailing": true, // Prohibit trailing whitespaces.	
+  "globals": { // Globals variables.
+    "jasmine": true,
+    "angular": true,
+    "ApplicationConfiguration": true,
+    "$": false
+  },
+  "predef": [ // Extra globals.
+    "define",
+    "require",
+    "exports",
+    "module",
+    "describe",
+    "before",
+    "beforeEach",
+    "after",
+    "afterEach",
+    "it",
+    "inject",
+    "expect"
+  ],
+  "indent": 2, // Specify indentation spacing
+  "devel": true, // Allow development statements e.g. `console.log();`.
+  "noempty": true // Prohibit use of empty blocks.
+}
